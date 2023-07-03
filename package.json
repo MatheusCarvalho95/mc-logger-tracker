@@ -1,0 +1,19 @@
+{
+  "name": "mc-logger-tracker",
+  "version": "0.0.1",
+  "description": "",
+  "main": "src/index.ts",
+  "scripts": {
+    "start": "node --loader ts-node/esm index.ts",
+    "dev": "ts-node ./src/testFile.ts",
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "Matheus Carvalho",
+  "github": "https://github.com/MatheusCarvalho95",
+  "license": "ISC",
+  "devDependencies": {
+    "ts-node": "^10.9.1",
+    "typescript": "^5.1.3"
+  }
+}
